@@ -1,0 +1,18 @@
+.sidebarOption-suboption {
+    display: none;
+    padding-left: 40px;
+}
+
+.sidebarOption-suboption > p {
+    padding-left: 10px;
+}
+
+.sidebarOption-suboption:hover {
+    background-color: whitesmoke;
+    color: gray;
+}
+
+.sidebarOption-suboption--selected {
+    background-color: whitesmoke;
+    color: gray;
+}

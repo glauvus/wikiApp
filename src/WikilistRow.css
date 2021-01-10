@@ -1,0 +1,33 @@
+.wikilistRow {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.wikilistRow:hover {
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.24);
+}
+
+.wikilistRow-category {
+    flex: 0.6;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wikilistRow-title {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wikilistRow-time {
+    padding-right: 20px;
+    padding-left: 100px;
+    font-size: small;
+}

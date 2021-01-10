@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu > h1 {
+    margin-left: 15px;
+}
+
+.header-search {
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.header-search > input {
+    border: none;
+    width: 100%;
+    outline-width: 0;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.header-search > .MuiSvgIcon-root {
+    color: grey;
+}

@@ -1,0 +1,47 @@
+.sidebarOption {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sidebarOption--selected > .sidebarOption-option > .optionIcon {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.sidebarOption-option {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    font-size: large;
+}
+
+.sidebarOption-option > h4 {
+    margin-left: 10px;
+    flex: 1;
+}
+
+.sidebarOption-option > p {
+    display: none;
+}
+
+.sidebarOption-option--active > p {
+    display: inline !important;
+}
+
+.sidebarOption-option:hover > p {
+    display: inline;
+}
+
+.sidebarOption-option:hover {
+    background-color: whitesmoke;
+    color: gray;
+}
+
+.sidebarOption--selected > .sidebarOption-suboption {
+    display: flex;
+}
